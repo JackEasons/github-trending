@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios, { toFormData } from "axios";
 import cheerio from "cheerio";
 import fs from "fs";
 import path from "path";
@@ -119,6 +119,7 @@ const job = async () => {
   await scrape("swift", filename);
 
   createREADME(strdate);
+  // gitAddCommitPush(strdate, filename);
 };
 
 job();
