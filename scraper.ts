@@ -119,7 +119,7 @@ const job = async () => {
   await scrape("swift", filename);
 
   createREADME(strdate);
-  // gitAddCommitPush(strdate, filename);
+  gitAddCommitPush(strdate, filename);
 };
 
 job();
