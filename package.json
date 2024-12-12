@@ -1,6 +1,6 @@
 {
   "name": "github-trending",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Tracking the most popular Github repos, updated daily(TS version)",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.4.4",
-    "tsx": "^3.12.7"
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2"
   },
   "dependencies": {
-    "axios": "^1.4.0",
-    "cheerio": "^1.0.0-rc.12"
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0"
   }
 }
