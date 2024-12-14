@@ -1,5 +1,5 @@
 import axios, { toFormData } from "axios";
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 import fs from "fs";
 import path from "path";
 import { exec } from "child_process";
